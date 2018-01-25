@@ -44,7 +44,7 @@ header {
     width: 650px;
     background-color: #ffffff; 
     display: inline-block;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
     margin-top: 35px;
     border: #dddddd solid 1px;
     
@@ -242,7 +242,16 @@ footer {
 
 
 /* -------------------------------------------- Media Queries -------------------------------------------- */
+@media screen and (max-width: 980px) {
+    .entire-content-area {
+        width: 70%;
+    }
+    .main-content-area {
+        width: 50%;
+    }
+}
 
+/*-----------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
     
     .header-content {
@@ -317,5 +326,39 @@ footer {
     }
     .main-content-area {
         width: 95.5%;
+    }
+    .skills {
+        width: 95%;
+        height: 95%;
+    }
+    .hangman-text {
+        position: relative;
+        top: -90px;
+        width: 218px;
+        left: 62px;
+    }
+    .rpg-game-text {
+        top: -90px;
+        position: relative;
+        width: 233px;
+        left: 62px;
+    }
+    .trivia-game-text {
+        position: relative;
+        top: -90px;
+        left: 62px;
+        width: 241px;
+    }
+    .rutgers-info-widget-text {
+        position: relative;
+        top: -90px;
+        left: 62px;
+        width: 304px;
+    }
+    .led-tv-text {
+        position: relative;
+        top: -90px;
+        left: 62px;
+        width: 211px;
     }
 }
