@@ -274,3 +274,48 @@ footer {
         width: 768px;
     }
 }
+/* ----------------------------------------------------- */
+@media screen and (max-width: 640px) {
+    .header-content {
+        margin-left: 0;
+        
+    }
+    .name {
+        width: 640px;
+        padding-left: 0px;
+        padding-right: 0px;
+        
+    }
+    .nav-bar {
+        width: 100%;
+        background-color: white;
+        float: none;
+    }
+    .nav-bar-float {
+        float: left;
+        background-color: white;
+        width: 640px;
+    }
+    body {
+        width: 640px;
+    }
+    footer {
+        width: 640px;
+    }
+    .nav-bar-list-item {
+        width: 33%;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+    }
+    .entire-content-area {
+        width: 640px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+        
+    }
+    .main-content-area {
+        width: 95.5%;
+    }
+}
